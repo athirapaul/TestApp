@@ -12,7 +12,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView testview;
+        TextView textView;
         Button button1;
+        textView = (TextView)findViewById(R.id.textView);
+        button1 = (Button)findViewById(R.id.button1);
+
     }
 }
